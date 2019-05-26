@@ -1,12 +1,15 @@
-# PHP Hello World Sample
+# 対話式商品検索アプリ
+Watsonと対話しながら商品を検索するアプリです。
 
-This application demonstrates a simple, reusable PHP web application.
+## 開発言語
+ - PHP
 
-## Run the app locally
+## 概要
+ - IBMCloudを使用しています。
+ - 対話はWatsonAPIを使用しています。
+ - 商品検索は楽天APIを使用しています。
 
-1. Download and extract [PHP][]
-1. cd into this project's root directory
-1. Run `php -S localhost:8000` to start the app using the built-in development web server
-1. Access the running app in a browser at <http://localhost:8000>
+## 画面
+　1. 質問に答えていくと楽天からおすすめの商品を検索して表示します。  
+<img src="https://github.com/ice-soi/WatsonApp/blob/picture/home.jpg" alt="home" title="home" width="450" height="300">   
 
-[PHP]: http://php.net/downloads.php
